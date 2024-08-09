@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SVN_Gilory_Thin";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ Thin.otf") format("truetype");
+}
+@font-face {
+  font-family: "SVN_Gilory_Regular";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "SVN_Gilory_Medium";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "SVN_Gilory_Semibold";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ SemiBold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "SVN_Gilory_Bold";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "SVN_Gilory_Extrabold";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ XBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "SVN_Gilory_Black";
+  src: url("../../public/SVN_Gilory/SVN-Gilroy\ Black.otf") format("truetype");
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --Loan-Afm-111: #f88f30;
+  --secondary-30: #1f2251;
+  --Loan-Afm-444: #1f2251;
+  --trinh-Gumac-textden: #424242;
+  --Loan-Baa-text-baa: #282a4a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+@layer components {
+  .container {
+    @apply w-[87.5rem] mx-auto min-w-[87.5rem] px-0;
+  }
+}
+html {
+  font-size: 1vw;
+}
+
+/* banner */
+.over_bg_banner {
+  background: linear-gradient(
+    359.5deg,
+    #202354 10.84%,
+    rgba(31, 34, 81, 0) 50.98%
+  );
+}
+/* section1 */
+/* sub1 section1 */
+.bg_line {
+  width: 11.75rem;
+  height: 0.125rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    93deg,
+    rgba(251, 174, 39, 0.56) 6.9%,
+    rgba(252, 181, 38, 0.5) 12.81%,
+    rgba(250, 161, 40, 0.65) 20.05%,
+    rgba(248, 152, 41, 0.72) 32.13%,
+    #f4742d 48.56%,
+    #f4742d 62.96%,
+    #f4742d 78.04%
+  );
+}
+/* sub2 section1 */
+.bg_gradient_subSection1_2 {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 181, 38, 0.6) -150.07%,
+    #f4742c 100%
+  );
+}
+/* sub3 section1 */
+.box_shadow_custom {
+  box-shadow: 40px 40px 100px 0px rgba(112, 143, 163, 0.16);
+}
+/* sub9 section1 */
+.bg_RectangleItem {
+  background: linear-gradient(
+    90deg,
+    rgba(114, 116, 142, 1) 0%,
+    rgba(79, 82, 109, 0.61) 50.44%,
+    rgba(114, 116, 142, 1) 100%
+  );
+}
+/* respon sections */
+@media only screen and (max-width: 639px) {
+  html {
+    font-size: 4.3vw;
+  }
+}
+@media (max-width: 1023px) and (min-width: 640px) {
+  html {
+    font-size: 3vw;
+  }
+}
+/* bannerTop */
+@media (max-width: 639px) and (min-width: 450px) {
+  .hero_respon {
+    top: 18%;
+  }
+}
+@media only screen and (max-width: 449px) {
+  .hero_respon {
+    top: 30%;
+  }
+}
+/* pie chart */
+@media (max-width: 639px) and (min-width: 450px) {
+  .hero_respon {
+    top: 18%;
+  }
+}
