@@ -46,12 +46,12 @@ const SubSection2_2 = () => {
       <div className="px-[0.62rem] lg:container relative">
         <div
           className="w-full lg:w-[69.25rem] h-[12.8125rem]
-         sm:h-[20rem] lg:h-[37.8125rem] rounded-[0.5rem] lg:rounded-t-[1.5rem] bg-white 
+         sm:h-[20rem] lg:h-[37.8125rem] rounded-[0.5rem] lg:rounded-t-[1.5rem]  lg:rounded-b-none bg-white 
        p-[0.5rem] lg:p-[1rem] ml-auto -mt-[6.5rem] sm:-mt-[10rem] lg:-mt-[20rem]"
         >
           <div
             data-aos="zoom-in"
-            className="overflow-hidden w-full h-full rounded-[0.5rem] lg:rounded-t-[1rem] bg-black"
+            className="overflow-hidden w-full h-full rounded-[0.5rem] lg:rounded-t-[1rem] lg:rounded-b-none bg-black"
           >
             <Image
               src={BannerSection2_2}
