@@ -26,7 +26,7 @@ const SubSection1_3 = () => {
         </p>
       </TitleComponent>
       <div data-aos="zoom-in" className="flex justify-center">
-        <div className=" mx-auto  bg-black  mt-[2.94rem] w-[69.25rem] h-[36.375rem] box_shadow_custom rounded-[1rem]  lg:inline-block hidden">
+        <div className=" mx-auto  mt-[2.94rem] w-[69.25rem] h-[36.375rem] box_shadow_custom rounded-[1rem]  lg:inline-block hidden">
           <div className="overflow-hidden w-full h-full rounded-[1rem]">
             <Image
               src={sub3Section1_img}
